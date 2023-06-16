@@ -1,0 +1,14 @@
+.logo {
+    // border: 1px solid black;
+
+    &__img {
+        // border: 1px solid black;
+        height: 48px;
+
+        @include onDesktop {
+            height: 80px;
+        }
+    }
+
+
+}
